@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 40px;
+        font-size: 24px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 30px;
+        font-size: 22px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+}
+header{
+    height: 70px;
+    background-color: black;
+    
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.list{
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navigate{
+    justify-content: space-between;
+}
+.navlist{
+    gap: 30px;
+}
+.aligncenter{
+    align-items: center;
+}
+.one{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 88px;
+    margin-left: 349px;
+    margin-top: 114px;
+    text-align: center;
+    width: 743px;
+    height: 186;
+}
+.amg{
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.rasm1{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.amg1{
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.container2{
+    width: 1240px;
+    margin: 0 auto;
+    margin-left: 630px;
+    margin-top: -900px;
+}
+.amg2{
+    border-radius:20px ;
+
+}
+.amg3{
+    border-radius: 20px;
+    margin-top: 960px;
+}
+.container3{
+    margin: 0 auto;
+    margin-left: 1100px;
+   margin-top: -865px; 
+}
+.amg4{
+    border-radius: 20px;
+}
+.amg5{
+    margin-top: 960px;
+    border-radius: 20px;
+
+}
+.classs{
+    margin-top: 100px;
+}
